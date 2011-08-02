@@ -1,32 +1,25 @@
-/* 
-You're looking at CSS written by Allan Branch of LessEverything.com 
-If you have questions email me at Allan(at)LessEverything(dot)com
-To be able to read the rhtml better I use default classes (right, left, clear)
-div class=clear is your friend, horizontal lists aren't
-*/
-
 body  {
 	font: normal 11px "Lucida Grande", Helvetica, Arial, sans-serif;
 	background: url(/images/bg.jpg);
 	margin: 0px auto;
-	padding: 0px; 
-	color: #eee; 
+	padding: 0px;
+	color: #eee;
 	text-align: center;
 	line-height: 160%;
-}	
+}
 div, img, form, ul {
 	margin: 0px;
 	padding: 0px;
-	border: 0px; 
+	border: 0px;
 }
 small			{font-size: 9px;}
-div, span, td, .text_l {text-align: left;}	
-.clear 			{clear: both;}	
+div, span, td, .text_l {text-align: left;}
+.clear 			{clear: both;}
 .text_r 		{text-align: right;}
 .text_c,
 div .text_c 		{text-align: center;}
 a 				{font: normal  "Arial", sans-serif; text-decoration: none; color: #f9f2a1; }
-a:hover 		{text-decoration: underline; }	
+a:hover 		{text-decoration: underline; }
 .left 			{float: left;}
 .right 			{float: right;}
 .hidden			{display: none;}
@@ -130,7 +123,7 @@ h2 a			{text-transform: capitalize; font-weight: normal; font-size: 11px;}
 .pagination select	{padding: 0px; font-size: 10px; margin: 0 5px;}
 .pagination			{padding: 10px 0;}
 
-#messages td, 
+#messages td,
 #messages th	{padding: 3px;}
 #messages th	{background: #971d4a; font-size: 10px;}
 #messages		{width: 100%;}
@@ -369,7 +362,7 @@ table.forum_topics td {
 }
 #TB_window {
   position: fixed;
-background: black url(/images/top_hearts_black.png) no-repeat; 
+background: black url(/images/top_hearts_black.png) no-repeat;
 border: 10px solid #666;
   z-index: 102;
   color:white;
@@ -472,3 +465,4 @@ margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = d
   margin-top:1px;
   _margin-bottom:1px;
 }
+
