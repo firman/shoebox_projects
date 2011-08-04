@@ -11,7 +11,7 @@ gem 'hpricot', '0.6.164'
 gem 'mocha', '0.9.3'
 gem 'redgreen', '1.2.2'
 gem 'gcnovus-avatar', '0.0.7'
-gem 'rflickr
-gem 'RedCloth'
-gem 'rmagick'
+gem 'rflickr', "~> 2006.02.01"
+
+gem 'rmagick', "~> 2.13.1"
 
